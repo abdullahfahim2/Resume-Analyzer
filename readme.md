@@ -40,34 +40,7 @@ This project is **portfolio-ready**, showcasing:
 
 ---
 
-## Project Architecture / File Structure
 
-```
-
-ai_resume_analyzer/
-│
-├── ai_engine/                  # Core AI app
-│   ├── models.py               # Resume & ResumeAnalysis models
-│   ├── serializers.py          # DRF serializers
-│   ├── views.py                # DRF API views
-│   ├── gemini_service.py       # Google GenAI service
-│   ├── utils.py                # PDF extraction & text cleaning
-│   └── prompts.py              # AI prompt templates
-│
-├── resumeanalyzer/             # Django project
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-│
-├── static/                     # Static files
-├── media/                      # Uploaded resumes
-├── requirements.txt            # Python dependencies
-├── manage.py
-└── .env                        # Environment variables (API keys, secrets)
-
-````
-
----
 
 ## API Endpoints
 
