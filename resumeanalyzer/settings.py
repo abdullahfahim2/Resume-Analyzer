@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# google ai studio api key
+GOOGLE_API_KEY = ''
+
 
 # Application definition
 
